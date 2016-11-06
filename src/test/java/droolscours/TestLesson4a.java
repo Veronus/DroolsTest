@@ -38,7 +38,7 @@ public class TestLesson4a {
 	        OutputDisplay display = new OutputDisplay();
 	        sessionStatefull.setGlobal("showResult", display);
 	        Account a = new Account();
-	        a.setBalance(2500);
+	        a.setBalance(500);
 	        sessionStatefull.insert(a);
 	        AccountingPeriod period = new AccountingPeriod();
 	        sessionStatefull.insert(period);
